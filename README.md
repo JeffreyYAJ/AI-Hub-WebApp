@@ -22,6 +22,7 @@ Inspired by platforms like Poe
 
 The project is structured with modularity:
 
+```bash
 src/
 ├── components/ 
 │ ├── Sidebar
@@ -33,7 +34,7 @@ src/
 ├── styles/ # Global and theme styles
 ├── utils/ # Helper functions
 └── main.tsx
-
+```
 
 
 ---
@@ -70,17 +71,12 @@ By default, the app may include example pinned sites such as:
 These can be modified or removed at any time from the UI.
 
 # Future Improvements
-Electron desktop version
-
-Multiple workspaces / profiles
-
-Split-view (multiple AI tools visible at once)
-
-Keyboard shortcuts
-
-Cloud sync
-
-Plugin system for AI tools
+- Electron desktop version
+- Multiple workspaces / profiles
+- Split-view (multiple AI tools visible at once)
+- Keyboard shortcuts
+- Cloud sync
+- Plugin system for AI tools
 
 # Limitations
 Some external websites may restrict embedding via iframes due to security policies (CSP / X-Frame-Options).
